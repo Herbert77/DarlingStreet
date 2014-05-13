@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>77A30229-95DD-472B-AD7B-AD52987C63E0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DarlingStreet</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D9731ADB-EBD5-4C01-9387-20FBEE8244A2</key>
+		<string>https://github.com/Herbert77/DarlingStreet.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DarlingStreet.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D9731ADB-EBD5-4C01-9387-20FBEE8244A2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Herbert77/DarlingStreet.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D9731ADB-EBD5-4C01-9387-20FBEE8244A2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D9731ADB-EBD5-4C01-9387-20FBEE8244A2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DarlingStreet</string>
+		</dict>
+	</array>
+</dict>
+</plist>
