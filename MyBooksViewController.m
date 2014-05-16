@@ -10,7 +10,12 @@
 #import "BookCell.h"
 #import "SearchViewController.h"
 
+#import "API.h"
+
 @interface MyBooksViewController ()
+{
+    NSDictionary *bookInfo;
+}
 
 @end
 
@@ -32,6 +37,13 @@
     return self;
 }
 
+-(void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:YES];
+    
+    [self refresh:nil];
+    
+}
 
 - (void)viewDidLoad
 {
@@ -43,6 +55,8 @@
     _tableView.dataSource = self;
     
     [self.view addSubview:_tableView];
+    
+     bookInfo = [[API sharedInstance] requestForBookInfo:@"1220562"];
     
 }
 
@@ -60,6 +74,9 @@
 -(void) refresh:(id)sender
 {
     // TODO: refresh
+    bookInfo = [[API sharedInstance] requestForBookInfo:@"1220562"];
+  
+    [_tableView reloadData];
 }
 
 #pragma mark -
@@ -93,9 +110,15 @@
         cell = [nib objectAtIndex:0];
     }
     
-    cell.title.text = @"dream";
+//    cell.title.text = @"dream";
     
     // TODO: configure the data for cell
+    
+   
+    
+    cell.title.text = [bookInfo objectForKey:@"title"];
+    
+
     
     return cell;
 

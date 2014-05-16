@@ -9,11 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @class TeamViewController;
+@class AuthorizationViewController;
+@class FeedBackController;
 
 @interface AboutViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @property (retain, nonatomic) UITableView *tableView;
 
 @property (retain, nonatomic) TeamViewController *teamViewController;
+
+@property (retain, nonatomic) AuthorizationViewController *authorizationViewController;
+
+@property (retain, nonatomic) FeedBackController *feedBackController;
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E527C78A19259AAC00CC8DBF /* AuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E527C78919259AAC00CC8DBF /* AuthorizationViewController.m */; };
 		E557A122191F54BA009EA238 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E557A121191F54BA009EA238 /* Foundation.framework */; };
 		E557A124191F54BA009EA238 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E557A123191F54BA009EA238 /* CoreGraphics.framework */; };
 		E557A126191F54BA009EA238 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E557A125191F54BA009EA238 /* UIKit.framework */; };
@@ -29,6 +30,7 @@
 		E557A170191F7269009EA238 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E557A16F191F7269009EA238 /* SearchViewController.m */; };
 		E563A3391920C8AF0070129D /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E563A3371920C8AF0070129D /* UserCell.m */; };
 		E563A33A1920C8AF0070129D /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E563A3381920C8AF0070129D /* UserCell.xib */; };
+		E56CA38D1925DC75005B2BB3 /* FeedBackController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56CA38C1925DC75005B2BB3 /* FeedBackController.m */; };
 		E56CA3D21920F633008740FE /* home-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E56CA3D11920F633008740FE /* home-2.png */; };
 		E56CA3D519210000008740FE /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56CA3D419210000008740FE /* TeamViewController.m */; };
 		E56CA3D81921009A008740FE /* team_introduction_image.png in Resources */ = {isa = PBXBuildFile; fileRef = E56CA3D71921009A008740FE /* team_introduction_image.png */; };
@@ -49,6 +51,10 @@
 		E5794E1419224907009BDFDB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E5794E0119224906009BDFDB /* UIProgressView+AFNetworking.m */; };
 		E5794E1519224907009BDFDB /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E5794E0319224907009BDFDB /* UIRefreshControl+AFNetworking.m */; };
 		E5794E1619224907009BDFDB /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E5794E0519224907009BDFDB /* UIWebView+AFNetworking.m */; };
+		E5794E1B19225B7F009BDFDB /* FollowingDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5794E1A19225B7F009BDFDB /* FollowingDetailController.m */; };
+		E59628CD1923AA3C00AB8B28 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = E59628CC1923AA3C00AB8B28 /* Book.m */; };
+		E59628D01923AA7300AB8B28 /* NSDictionary+Book.m in Sources */ = {isa = PBXBuildFile; fileRef = E59628CF1923AA7300AB8B28 /* NSDictionary+Book.m */; };
+		E59628D31923AB3000AB8B28 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = E59628D21923AB3000AB8B28 /* API.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E527C78819259AAC00CC8DBF /* AuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizationViewController.h; sourceTree = "<group>"; };
+		E527C78919259AAC00CC8DBF /* AuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizationViewController.m; sourceTree = "<group>"; };
 		E557A11E191F54BA009EA238 /* DarlingStreet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarlingStreet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E557A121191F54BA009EA238 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E557A123191F54BA009EA238 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +104,8 @@
 		E563A3361920C8AF0070129D /* UserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCell.h; sourceTree = "<group>"; };
 		E563A3371920C8AF0070129D /* UserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCell.m; sourceTree = "<group>"; };
 		E563A3381920C8AF0070129D /* UserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		E56CA38B1925DC75005B2BB3 /* FeedBackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackController.h; sourceTree = "<group>"; };
+		E56CA38C1925DC75005B2BB3 /* FeedBackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackController.m; sourceTree = "<group>"; };
 		E56CA3D11920F633008740FE /* home-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-2.png"; sourceTree = "<group>"; };
 		E56CA3D319210000008740FE /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
 		E56CA3D419210000008740FE /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
@@ -136,6 +146,14 @@
 		E5794E0319224907009BDFDB /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		E5794E0419224907009BDFDB /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		E5794E0519224907009BDFDB /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		E5794E1919225B7F009BDFDB /* FollowingDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowingDetailController.h; sourceTree = "<group>"; };
+		E5794E1A19225B7F009BDFDB /* FollowingDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowingDetailController.m; sourceTree = "<group>"; };
+		E59628CB1923AA3C00AB8B28 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		E59628CC1923AA3C00AB8B28 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		E59628CE1923AA7300AB8B28 /* NSDictionary+Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Book.h"; sourceTree = "<group>"; };
+		E59628CF1923AA7300AB8B28 /* NSDictionary+Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Book.m"; sourceTree = "<group>"; };
+		E59628D11923AB3000AB8B28 /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		E59628D21923AB3000AB8B28 /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +284,10 @@
 		E557A152191F54E0009EA238 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E59628CB1923AA3C00AB8B28 /* Book.h */,
+				E59628CC1923AA3C00AB8B28 /* Book.m */,
+				E59628CE1923AA7300AB8B28 /* NSDictionary+Book.h */,
+				E59628CF1923AA7300AB8B28 /* NSDictionary+Book.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -273,6 +295,8 @@
 		E557A153191F54E1009EA238 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				E59628D11923AB3000AB8B28 /* API.h */,
+				E59628D21923AB3000AB8B28 /* API.m */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -300,8 +324,7 @@
 			children = (
 				E557A15F191F56EE009EA238 /* MyBooksViewController.h */,
 				E557A160191F56EE009EA238 /* MyBooksViewController.m */,
-				E557A16E191F7269009EA238 /* SearchViewController.h */,
-				E557A16F191F7269009EA238 /* SearchViewController.m */,
+				E5794E1719225887009BDFDB /* MyBooks_branch */,
 			);
 			name = MyBooks;
 			sourceTree = "<group>";
@@ -311,6 +334,7 @@
 			children = (
 				E557A162191F5707009EA238 /* FollowingViewController.h */,
 				E557A163191F5707009EA238 /* FollowingViewController.m */,
+				E5794E1819225930009BDFDB /* Following_branch */,
 			);
 			name = Following;
 			sourceTree = "<group>";
@@ -349,6 +373,10 @@
 			children = (
 				E56CA3D319210000008740FE /* TeamViewController.h */,
 				E56CA3D419210000008740FE /* TeamViewController.m */,
+				E527C78819259AAC00CC8DBF /* AuthorizationViewController.h */,
+				E527C78919259AAC00CC8DBF /* AuthorizationViewController.m */,
+				E56CA38B1925DC75005B2BB3 /* FeedBackController.h */,
+				E56CA38C1925DC75005B2BB3 /* FeedBackController.m */,
 			);
 			name = branch_about;
 			sourceTree = "<group>";
@@ -401,6 +429,24 @@
 				E5794E0519224907009BDFDB /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		E5794E1719225887009BDFDB /* MyBooks_branch */ = {
+			isa = PBXGroup;
+			children = (
+				E557A16E191F7269009EA238 /* SearchViewController.h */,
+				E557A16F191F7269009EA238 /* SearchViewController.m */,
+			);
+			name = MyBooks_branch;
+			sourceTree = "<group>";
+		};
+		E5794E1819225930009BDFDB /* Following_branch */ = {
+			isa = PBXGroup;
+			children = (
+				E5794E1919225B7F009BDFDB /* FollowingDetailController.h */,
+				E5794E1A19225B7F009BDFDB /* FollowingDetailController.m */,
+			);
+			name = Following_branch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,9 +555,12 @@
 				E557A157191F5565009EA238 /* RootViewController.m in Sources */,
 				E5794E0F19224907009BDFDB /* AFNetworkActivityIndicatorManager.m in Sources */,
 				E5794E0E19224907009BDFDB /* AFURLSessionManager.m in Sources */,
+				E59628D01923AA7300AB8B28 /* NSDictionary+Book.m in Sources */,
 				E5794E0819224907009BDFDB /* AFHTTPSessionManager.m in Sources */,
 				E557A170191F7269009EA238 /* SearchViewController.m in Sources */,
 				E5794E0919224907009BDFDB /* AFNetworkReachabilityManager.m in Sources */,
+				E59628CD1923AA3C00AB8B28 /* Book.m in Sources */,
+				E5794E1B19225B7F009BDFDB /* FollowingDetailController.m in Sources */,
 				E557A167191F5713009EA238 /* AboutViewController.m in Sources */,
 				E5794E1319224907009BDFDB /* UIImageView+AFNetworking.m in Sources */,
 				E5794E1419224907009BDFDB /* UIProgressView+AFNetworking.m in Sources */,
@@ -525,10 +574,13 @@
 				E557A15E191F56D1009EA238 /* NewsViewController.m in Sources */,
 				E557A164191F5707009EA238 /* FollowingViewController.m in Sources */,
 				E5794E0A19224907009BDFDB /* AFSecurityPolicy.m in Sources */,
+				E527C78A19259AAC00CC8DBF /* AuthorizationViewController.m in Sources */,
+				E59628D31923AB3000AB8B28 /* API.m in Sources */,
 				E56CA3D519210000008740FE /* TeamViewController.m in Sources */,
 				E5794E1619224907009BDFDB /* UIWebView+AFNetworking.m in Sources */,
 				E563A3391920C8AF0070129D /* UserCell.m in Sources */,
 				E557A161191F56EE009EA238 /* MyBooksViewController.m in Sources */,
+				E56CA38D1925DC75005B2BB3 /* FeedBackController.m in Sources */,
 				E5794E1119224907009BDFDB /* UIAlertView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

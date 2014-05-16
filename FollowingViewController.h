@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class FollowingDetailController;
+
 @interface FollowingViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, retain) UITableView *tableView;
+
+@property (nonatomic, retain) FollowingDetailController *followingDetailController;
 
 @end

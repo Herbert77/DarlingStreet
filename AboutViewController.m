@@ -8,6 +8,8 @@
 
 #import "AboutViewController.h"
 #import "TeamViewController.h"
+#import "AuthorizationViewController.h"
+#import "FeedBackController.h"
 
 @interface AboutViewController ()
 
@@ -44,10 +46,24 @@
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (indexPath.row == 0 && indexPath.section == 1) {
-//        [self presentViewController:_teamViewController animated:YES completion:nil];
+
         _teamViewController = [[TeamViewController alloc] init];
         
         [[self navigationController] pushViewController:_teamViewController animated:YES];
+    }
+    
+    if (indexPath.row == 0 && indexPath.section == 0) {
+       
+        _authorizationViewController = [[AuthorizationViewController alloc] init];
+        
+        [[self navigationController] pushViewController:_authorizationViewController animated:YES];
+    }
+    
+    if (indexPath.row == 1 && indexPath.section == 1) {
+       
+        _feedBackController = [[FeedBackController alloc] init];
+        
+        [[self navigationController] pushViewController:_feedBackController animated:YES];
     }
 }
 

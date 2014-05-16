@@ -8,7 +8,9 @@
 
 #import "FollowingViewController.h"
 
-#include "UserCell.h"
+#import "UserCell.h"
+
+#import "FollowingDetailController.h"
 
 @interface FollowingViewController ()
 
@@ -85,6 +87,9 @@
 -(void) tableView:(UITableView *) tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     // TODO: didSelect
+    _followingDetailController = [[FollowingDetailController alloc] init];
+    
+    [[self navigationController] pushViewController:_followingDetailController animated:YES];
 }
 
 
