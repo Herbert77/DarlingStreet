@@ -8,8 +8,8 @@
 
 #import "AuthorizationViewController.h"
 
-static NSString * const kAPIKey = @"07f5120965123aa617df361c2f36aff2";
-static NSString * const kPrivateKey = @"184025d8f5492de8";
+static NSString * const kAPIKey = @"0cea67cd5648b39d26bf376802da1ad7";
+static NSString * const kPrivateKey = @"aede40bd731c4c17";
 static NSString * const kRedirectUrl = @"http://www.douban.com/location/mobile";
 
 static NSString * const resure_url = @"http://www.douban.com/location/mobile?error=access_denied";
